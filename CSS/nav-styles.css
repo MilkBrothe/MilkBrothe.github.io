@@ -1,0 +1,57 @@
+/* Navigation bar styles */
+.navbar{
+    list-style-type:none;
+    margin-top: 0.5em;
+    padding:0;
+    overflow:hidden;
+    background-color:#6ec96b80;
+    border: 1px solid black;
+    /* box-shadow: 0 1px 2px black; */
+}
+.navbar li{
+    float:right;
+    list-style:none;
+    margin:.5em 0;
+    padding: 1em;
+    box-shadow: 0 1px 2px black;
+}
+.navbar a{
+    padding:14px 10px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+}
+.navbar a:hover{
+    /* background-color:#293; */
+    color:#CFC4C0;
+}
+
+/* Table of Contents Styles */
+#table-of-contents{
+    float: left;
+    width:10%;
+    background-color: lightgreen;
+    margin:0 1em 1em 0;
+    align-items: left;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    
+}
+#table-of-contents li{
+    list-style:none;
+    padding: 1em 0;
+    float: left;
+    clear: both;
+}
+#table-of-contents li h3{
+    text-decoration: underline;
+}
+
+#table-of-contents a{
+    text-decoration:none;
+    color:blue;
+    
+}
+#table-of-contents a:hover{
+    text-decoration: underline;
+}

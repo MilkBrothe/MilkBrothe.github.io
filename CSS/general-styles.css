@@ -1,0 +1,32 @@
+body{
+    background-color:white;
+    margin:0;
+}
+#container{
+    background-color: lightcyan;
+    padding: 2em;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 1px 2px black;
+}
+.specs-table{
+    border: black 1px solid;
+    background-color: lightblue;
+}
+.specs-table thead td{
+    background-color: lightseagreen;
+}
+.specs-table td{
+    border: black 1px solid;
+    background-color: lightskyblue;
+}
+footer {
+    text-align: center;
+    font:0.5em  ;
+    background-color:lightgoldenrodyellow;
+    color:olive;
+
+}
+footer a{
+    text-decoration: none;
+}
