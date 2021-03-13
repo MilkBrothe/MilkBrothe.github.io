@@ -1,3 +1,6 @@
+html {
+    font: 18px Comic, sans-serif;
+}
 body{
     background-color:white;
     margin:0;
@@ -8,6 +11,14 @@ body{
     text-align: center;
     height: 100%;
     box-shadow: 0 1px 2px black;
+}
+#container a{
+    font: italic bold ; 
+    text-decoration: none;
+    color:green ;
+}
+#container a:hover{
+    text-decoration: underline;
 }
 .specs-table{
     border: black 1px solid;
@@ -22,9 +33,10 @@ body{
 }
 footer {
     text-align: center;
-    font:0.5em  ;
+    font:0.5em;
     background-color:lightgoldenrodyellow;
     color:olive;
+    height:0.5 em;
 
 }
 footer a{
